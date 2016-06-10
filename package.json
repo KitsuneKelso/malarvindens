@@ -1,10 +1,12 @@
 {
-  "name": "react-0.14.6",
-  "version": "1.0.0",
-  "description": "React is a JavaScript library for building user interfaces.",
-  "main": "index.js",
+  "name": "malarvindens",
+  "version": "1.1.0",
+  "description": "React page for Malarvindens Kennel",
+  "main": "src/construction.jsx",
   "directories": {
-    "example": "examples"
+    "css": "css",
+    "public": "public",
+    "src": "src"
   },
   "browserify": {
     "transform": [
@@ -12,24 +14,30 @@
     ]
   },
   "dependencies": {
-    "babel-preset-react": "^6.3.13",
-    "react": "^0.14.6",
-    "react-bootstrap": "^0.28.2",
-    "react-dom": "^0.14.6",
-    "react-router": "^2.0.0-rc5",
-    "react-sticky": "^3.0.0"
+    "babel-preset-react": "6.5.0",
+    "react": "15.1.0",
+    "react-bootstrap": "0.29.4",
+    "react-dom": "15.1.0",
+    "react-router": "2.4.1",
+    "react-sticky": "5.0.3"
   },
   "devDependencies": {
     "babelify": "^6.4.0",
     "browserify": "^13.0.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "eslint": "2.11.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-jsx-a11y": "1.2.0",
+    "eslint-plugin-import": "1.7.0",
+    "eslint-config-nordnet": "1.1.1",
+    "eslint-plugin-react": "5.1.1"
   },
   "scripts": {
-    "start": "npm run watch && npm run sass",
+    "start": "npm run watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watchify src/construction.jsx -d -o bundle.js -v",
     "sass": "sass --watch css/sass:public/stylesheets"
   },
-  "author": "",
+  "author": "Fredrik Gustafsson (https://github.com/KitsuneKelso)",
   "license": "ISC"
 }

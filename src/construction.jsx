@@ -22,7 +22,7 @@ class ConstructionTitle extends React.Component {
       </div>
     );
   }
-};
+}
 
 ReactDOM.render(
   <ConstructionTitle name="Mälarvindens Kennel" />,
