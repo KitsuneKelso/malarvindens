@@ -14,8 +14,16 @@ npm install
 
 After dependencies are installed you can set up watching the code for changes with:
 
+### Building JSX files to Bundle.js
+
 ```
-npm run watch && npm run sass"
+npm run watch
+```
+
+### Building SCSS to css
+
+```
+npm run sass
 ```
 
 That should be all you need, have fun!
