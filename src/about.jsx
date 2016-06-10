@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sticky from 'react-sticky';
 
 export default class OmOss extends React.Component {

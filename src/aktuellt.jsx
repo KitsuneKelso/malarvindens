@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sticky from 'react-sticky';
 
 export default class Aktuellt extends React.Component {
@@ -62,4 +61,4 @@ export default class Aktuellt extends React.Component {
       </div>
     );
   }
-};
+}

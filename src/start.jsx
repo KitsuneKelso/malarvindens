@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sticky from 'react-sticky';
 
 export default class Start extends React.Component {
@@ -50,4 +49,4 @@ export default class Start extends React.Component {
       </div>
     );
   }
-};
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sticky from 'react-sticky';
 
 export default class VaraValpar extends React.Component {
@@ -22,6 +21,6 @@ export default class VaraValpar extends React.Component {
           <div className="divider-two"></div>
         </Sticky>
       </div>
-    )
+    );
   }
 }

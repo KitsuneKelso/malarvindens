@@ -14,12 +14,12 @@
     ]
   },
   "dependencies": {
-    "babel-preset-react": "6.5.0",
-    "react": "15.1.0",
-    "react-bootstrap": "0.29.4",
-    "react-dom": "15.1.0",
-    "react-router": "2.4.1",
-    "react-sticky": "5.0.3"
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.6",
+    "react-router": "^2.0.0-rc5",
+    "react-sticky": "^3.0.0"
   },
   "devDependencies": {
     "babelify": "^6.4.0",

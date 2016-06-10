@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sticky from 'react-sticky';
 
 export default class Tax extends React.Component {
@@ -14,7 +13,7 @@ export default class Tax extends React.Component {
           film från min spårträning med vår Ida, hösten 2014.
         </p>
         <div className="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/gyGvnR7dK4g" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gyGvnR7dK4g" frameBorder="0" allowFullScreen></iframe>
         </div>
         <p className="tax-intro">
           Fortsätt nedåt så får ni även ta del av vardagslivet med våra taxar!
@@ -64,4 +63,4 @@ export default class Tax extends React.Component {
       </div>
     );
   }
-};
+}

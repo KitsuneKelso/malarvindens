@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sticky from 'react-sticky';
 
 export default class VaraHundar extends React.Component {
@@ -83,4 +82,4 @@ export default class VaraHundar extends React.Component {
       </div>
     );
   }
-};
+}
