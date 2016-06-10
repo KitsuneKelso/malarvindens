@@ -1,0 +1,288 @@
+.nav-bar .sticky {
+  background-image: url("../img/header_min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  outline: 20px solid #80866a; }
+  .nav-bar .sticky .nav-menu {
+    padding-top: 20px; }
+    .nav-bar .sticky .nav-menu .logo-big {
+      display: none; }
+    .nav-bar .sticky .nav-menu .logo-small {
+      display: block; }
+
+.nav-menu {
+  padding-top: 420px;
+  width: 85%;
+  min-width: 800px;
+  margin: auto; }
+  .nav-menu .logo-small {
+    display: none;
+    margin-top: -15px;
+    float: left; }
+  .nav-menu .logo-big {
+    float: left;
+    margin-top: -65px; }
+  .nav-menu .nav-links {
+    float: right; }
+
+.nav-tabs > li > a {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: #696969;
+  background-color: #D3D3D3; }
+
+.nav-tabs > li.active > a {
+  color: #FFFFFF !important;
+  background-color: #80866a !important; }
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 462px;
+  outline: 20px solid #80866a; }
+
+.content {
+  background-color: #80866a; }
+
+.page-title, .om-title, .secondary-title {
+  color: #FFFFFF;
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px; }
+
+.om-title {
+  padding-bottom: 30px; }
+
+.secondary-title {
+  font-size: 30px;
+  margin-top: -10px; }
+
+.start-page p, .contact-text-top, .contact-text-mid, .contact-text-bot,
+.pic-text-right, .pic-text-left, .img-txt-left, .img-txt-right, .tax-intro,
+.aktuellt, .tax-info {
+  color: #FFFFFF;
+  font-family: 'Poiret One', cursive; }
+
+.start-page p, .tax-intro {
+  font-size: 30px;
+  text-align: justify;
+  width: 800px;
+  margin: auto;
+  padding: 50px 50px 50px 50px; }
+
+.box-first {
+  padding-bottom: 10px;
+  background-color: #80866a; }
+
+.box-second {
+  background-color: #BC987E; }
+
+.box-third {
+  background-color: #874121; }
+
+.divider-one {
+  display: none;
+  height: 20px;
+  background-color: #BC987E; }
+
+.divider-two {
+  display: none;
+  height: 20px;
+  background-color: #874121; }
+
+.divider-sticky-one {
+  margin-top: 82px; }
+  .divider-sticky-one .divider-one {
+    display: block; }
+
+.divider-sticky-two {
+  margin-top: 102px; }
+  .divider-sticky-two .divider-two {
+    display: block; }
+
+.text-break {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-position: center 80px; }
+
+.pic-1 {
+  background-image: url("../img/skogen.jpg"); }
+
+.pic-2 {
+  background-image: url("../img/sodersjon.jpg"); }
+
+.pic-3 {
+  background-image: url("../img/taxar-head.jpg"); }
+
+.pic-4 {
+  background-image: url("../img/taxar-foot.jpg"); }
+
+.pic-box-one, .pic-box-two {
+  width: 1050px;
+  margin: auto;
+  padding: 50px 0 50px 0; }
+
+.pic-box-one {
+  height: 831px; }
+
+.pic-box-two {
+  height: 900px; }
+
+.pic-left {
+  float: left;
+  width: 620px; }
+
+.pic-right {
+  float: right;
+  width: 620px; }
+
+.pic-text-right, .pic-text-left {
+  text-align: justify;
+  font-size: 30px;
+  width: 380px; }
+
+.pic-text-right {
+  float: right; }
+
+.pic-text-left {
+  float: left; }
+
+.contact-main {
+  width: 800px;
+  min-height: 880px;
+  margin: auto;
+  padding-top: 50px; }
+  .contact-main .contact-text-top, .contact-main .contact-text-mid, .contact-main .contact-text-bot {
+    text-align: justify; }
+  .contact-main .contact-text-top, .contact-main .contact-text-bot {
+    width: 510px; }
+  .contact-main .contact-text-top {
+    float: left; }
+  .contact-main .contact-text-bot {
+    float: right; }
+  .contact-main .contact-text-mid {
+    clear: both;
+    width: 800px;
+    padding: 10px 0 10px 0; }
+  .contact-main .contact-bottom-pic {
+    width: 250px;
+    float: left;
+    clear: left; }
+  .contact-main .contact-history, .contact-main .contact-avatar {
+    width: 250px;
+    border: 10px solid #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .contact-main .contact-history {
+    float: right; }
+  .contact-main .contact-avatar {
+    float: left;
+    clear: left; }
+  .contact-main .img-txt-right, .contact-main .img-txt-left {
+    width: 250px;
+    text-align: center;
+    font-style: italic; }
+  .contact-main .img-txt-right {
+    float: right; }
+  .contact-main .img-txt-left {
+    float: left;
+    clear: left; }
+
+.contact-img-box {
+  height: 320px;
+  width: 800px;
+  margin: auto;
+  padding-top: 40px; }
+  .contact-img-box .contact-left-img, .contact-img-box .contact-right-img {
+    width: 380px;
+    border: 10px solid #FFFFFF; }
+  .contact-img-box .contact-left-img {
+    float: left; }
+  .contact-img-box .contact-right-img {
+    float: right; }
+
+.signature {
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Lobster Two', cursive; }
+
+.tax-container-2cell, .tax-container-3cell {
+  margin: auto; }
+
+.tax-container-2cell {
+  height: 450px;
+  width: 532px; }
+
+.tax-container-3cell {
+  height: 500px;
+  width: 800px; }
+
+.tax-box {
+  width: 266px;
+  margin: auto;
+  float: left;
+  padding-bottom: 50px; }
+
+.tax-info {
+  font-size: 15px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 10px; }
+
+.tax-bild {
+  width: 250px;
+  margin: auto;
+  margin-top: 50px; }
+  .tax-bild .tax-portrait {
+    width: 250px;
+    border-radius: 125px; }
+
+.aktuellt {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  padding: 40px 0 40px 0; }
+
+.footer-top {
+  height: 200px;
+  background-color: #D3D3D3; }
+  .footer-top p {
+    color: #808080;
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0 0 0; }
+
+.footer-image {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-image: url("../img/footer.jpg"); }
+
+.footer-end {
+  height: 62px;
+  background-color: #696969; }
+  .footer-end p {
+    color: #FFFFFF;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    padding-top: 22px;
+    font-weight: bold; }
+  .footer-end a:link, .footer-end a:visited, .footer-end a:hover, .footer-end a:active {
+    color: #00A8EF;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

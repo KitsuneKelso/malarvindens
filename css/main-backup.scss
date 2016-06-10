@@ -1,0 +1,308 @@
+$green: #80866a;
+$beige: #BC987E;
+$brown: #874121;
+$white: #FFFFFF;
+$grey: #808080;
+$lightgrey: #D3D3D3;
+$dimgrey: #696969;
+$blue: #00A8EF;
+
+.header {
+  background-image: url('../img/Header.jpg');
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 462px;
+  outline: 20px solid $green;
+}
+
+.nav-bar {
+  .sticky {
+    background-image: url('../img/HeaderMin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    outline: 20px solid $green;
+    .nav-menu {
+      padding-top: 20px;
+      .logo-big {
+        display: none;
+      }
+      .logo-small {
+        display: block;
+      }
+    }
+  }
+}
+
+.nav-menu {
+  padding-top: 420px;
+  width: 85%;
+  margin: auto;
+  .logo-small {
+    display: none;
+    margin-top: -15px;
+    float: left;
+  }
+  .logo-big {
+    float: left;
+    margin-top: -65px;
+  }
+  .nav-links {
+    float: right;
+  }
+}
+
+.nav-tabs>li>a {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: $dimgrey;
+  background-color: $lightgrey;
+}
+
+.nav-tabs>li.active>a {
+  color: $white !important;
+  background-color: $green !important;
+}
+
+.content {
+  background-color: $green;
+}
+
+.page-title, .om-title {
+  color: $white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+.om-title {
+  padding-bottom: 30px;
+}
+
+.start-page p, .contact-text-top, .contact-text-mid, .contact-text-bot,
+.pic-text-right, .pic-text-left, .img-txt-left, .img-txt-right, .tax-intro,
+.aktuellt p {
+  color: $white;
+  font-family: 'Poiret One', cursive;
+}
+
+.start-page p, .tax-intro {
+  font-size: 30px;
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+}
+
+.box-first {
+  padding-bottom:10px;
+  background-color: $green;
+}
+
+.box-second {
+  background-color: $beige;
+}
+
+.box-third {
+  background-color: $brown;
+}
+
+.divider-one {
+  display: none;
+  height: 20px;
+  background-color: $beige;
+}
+
+.divider-two {
+  display: none;
+  height: 20px;
+  background-color: $brown;
+}
+
+.divider-sticky-one {
+  margin-top: 82px;
+  .divider-one {
+    display: block;
+  }
+}
+
+.divider-sticky-two {
+  margin-top: 102px;
+  .divider-two {
+    display: block;
+  }
+}
+
+.text-break {
+  width: 100%;
+  height: 400px;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-position: center 80px;
+}
+.pic-1 {
+  background-image: url('../img/skogen.jpg');
+}
+.pic-2 {
+  background-image: url('../img/sodersjon.jpg');
+}
+.pic-3 {
+  background-image: url('../img/taxar-head.jpg');
+}
+.pic-4 {
+  background-image: url('../img/taxar-foot.jpg');
+}
+
+.pic-box-one, .pic-box-two {
+  max-width: 1050px;
+  margin: auto;
+  padding: 50px 0 50px 0;
+}
+.pic-box-one {
+  height: 831px;
+}
+.pic-box-two {
+  height: 900px;
+}
+.pic-left {
+  float: left;
+  width: 620px;
+}
+.pic-right {
+  float: right;
+  width: 620px;
+}
+.pic-text-right, .pic-text-left  {
+  text-align: justify;
+  font-size: 30px;
+  max-width: 380px;
+}
+.pic-text-right {
+  float: right;
+}
+.pic-text-left {
+  float: left;
+}
+
+.contact-main {
+  max-width: 800px;
+  min-height: 880px;
+  margin: auto;
+  padding-top: 50px;
+  .contact-text-top, .contact-text-mid, .contact-text-bot {
+    text-align: justify;
+  }
+  .contact-text-top, .contact-text-bot {
+    max-width: 510px;
+  }
+  .contact-text-top {
+    float: left;
+  }
+  .contact-text-bot {
+    float: right;
+  }
+  .contact-text-mid {
+    clear: both;
+    max-width: 800px;
+    padding: 10px 0 10px 0;
+  }
+  .contact-bottom-pic {
+    width: 250px;
+    float: left;
+    clear: left;
+  }
+  .contact-history, .contact-avatar {
+    width: 250px;
+    border: 10px solid $white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-history {
+    float: right;
+  }
+  .contact-avatar {
+    float: left;
+    clear: left;
+  }
+  .img-txt-right, .img-txt-left {
+    width: 250px;
+    text-align: center;
+    font-style: italic;
+  }
+  .img-txt-right {
+    float: right;
+  }
+  .img-txt-left {
+    float: left;
+    clear: left;
+  }
+}
+.contact-img-box {
+  height: 320px;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 40px;
+  .contact-left-img, .contact-right-img {
+    max-width: 380px;
+    border: 10px solid $white;
+  }
+  .contact-left-img {
+    float: left;
+  }
+  .contact-right-img {
+    float: right;
+  }
+}
+.signature {
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.aktuellt {
+  font-size: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 0 40px 0;
+}
+
+.footer-top {
+  height: 200px;
+  background-color: $lightgrey;
+  p {
+    color: $grey;
+    font-family: 'Poiret One', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+}
+
+.footer-image {
+  height: 600px;
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-image: url('../img/footer.jpg');
+}
+
+.footer-end {
+  height: 62px;
+  background-color: $dimgrey;
+  p {
+    color: $white;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    padding-top: 22px;
+    font-weight: bold;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color: $blue;
+    text-decoration: none;
+  }
+}

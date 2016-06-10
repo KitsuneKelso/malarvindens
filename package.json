@@ -1,0 +1,35 @@
+{
+  "name": "react-0.14.6",
+  "version": "1.0.0",
+  "description": "React is a JavaScript library for building user interfaces.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "react-bootstrap": "^0.28.2",
+    "react-dom": "^0.14.6",
+    "react-router": "^2.0.0-rc5",
+    "react-sticky": "^3.0.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "browserify": "^13.0.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "start": "npm run watch && npm run sass",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify src/construction.jsx -d -o bundle.js -v",
+    "sass": "sass --watch css/sass:public/stylesheets"
+  },
+  "author": "",
+  "license": "ISC"
+}
