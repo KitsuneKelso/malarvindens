@@ -39,5 +39,5 @@
     "sass": "sass --watch css/sass:public/stylesheets"
   },
   "author": "Fredrik Gustafsson (https://github.com/KitsuneKelso)",
-  "license": "ISC"
+  "license": "MIT"
 }
