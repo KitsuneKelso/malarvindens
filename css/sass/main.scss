@@ -1,291 +1,94 @@
 @import 'colors';
+@import 'about';
+@import 'aktuellt';
+@import 'footer';
 @import 'nav';
-
-.header {
-  background-image: url('../img/header.jpg');
-  background-size:  cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-  height: 462px;
-  outline: 20px solid $green;
-}
+@import 'tax';
+@import 'varahundar';
 
 .content {
-  background-color: $green;
-}
+  background-color: $green }
 
 .page-title, .om-title, .secondary-title {
   color: $white;
   font-family: 'Lobster Two', cursive;
-  font-size: 50px;
+  font-size: 40pt;
   text-align: center;
-  padding-top: 30px;
-}
+  padding-top: 30px; }
+
 .om-title {
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
+
 .secondary-title {
-  font-size: 30px;
-  margin-top: -10px;
-}
+  font-size: 22pt;
+  margin-top: -10px; }
 
 .start-page p, .contact-text-top, .contact-text-mid, .contact-text-bot,
 .pic-text-right, .pic-text-left, .img-txt-left, .img-txt-right, .tax-intro,
-.aktuellt, .tax-info {
+.aktuellt, .tax-info, .aktuellt-header {
   color: $white;
-  font-family: 'Poiret One', cursive;
-}
+  font-family: 'Poiret One', cursive; }
 
 .start-page p, .tax-intro {
-  font-size: 30px;
+  font-size: 22pt;
   text-align: justify;
   width: 800px;
   margin: auto;
-  padding: 50px 50px 50px 50px;
-}
+  padding: 50px 50px 50px 50px; }
 
 .box-first {
-  padding-bottom:10px;
-  background-color: $green;
-}
+  padding-bottom: 10px;
+  background-color: $green }
 
 .box-second {
-  background-color: $beige;
-}
+  background-color: $beige }
 
 .box-third {
-  background-color: $brown;
-}
+  background-color: $brown }
 
 .divider-one {
   display: none;
   height: 20px;
-  background-color: $beige;
-}
+  background-color: $beige }
 
 .divider-two {
   display: none;
   height: 20px;
-  background-color: $brown;
-}
+  background-color: $brown }
 
 .divider-sticky-one {
-  margin-top: 82px;
-  .divider-one {
-    display: block;
-  }
-}
+  margin-top: 82px; }
+  .divider-sticky-one .divider-one {
+    display: block; }
 
 .divider-sticky-two {
-  margin-top: 102px;
-  .divider-two {
-    display: block;
-  }
-}
+  margin-top: 102px; }
+  .divider-sticky-two .divider-two {
+    display: block; }
 
 .text-break {
   width: 100%;
   height: 400px;
-  background-size:  cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  background-attachment: fixed;
-  background-position: center 80px;
 }
+
+@media only screen and (min-width: 1025px) {
+  .text-break {
+    background-attachment: fixed;
+	background-position: center 80px;
+  }
+}
+
 .pic-1 {
-  background-image: url('../img/skogen.jpg');
-}
+  background-image: url("../img/skogen.jpg"); }
+
 .pic-2 {
-  background-image: url('../img/sodersjon.jpg');
-}
+  background-image: url("../img/sodersjon.jpg"); }
+
 .pic-3 {
-  background-image: url('../img/taxar-head.jpg');
-}
+  background-image: url("../img/taxar-head.jpg"); }
+
 .pic-4 {
-  background-image: url('../img/taxar-foot.jpg');
-}
-
-.pic-box-one, .pic-box-two {
-  width: 1050px;
-  margin: auto;
-  padding: 50px 0 50px 0;
-}
-.pic-box-one {
-  height: 831px;
-}
-.pic-box-two {
-  height: 900px;
-}
-.pic-left {
-  float: left;
-  width: 620px;
-}
-.pic-right {
-  float: right;
-  width: 620px;
-}
-.pic-text-right, .pic-text-left  {
-  text-align: justify;
-  font-size: 30px;
-  width: 380px;
-}
-.pic-text-right {
-  float: right;
-}
-.pic-text-left {
-  float: left;
-}
-
-.contact-main {
-  width: 800px;
-  min-height: 880px;
-  margin: auto;
-  padding-top: 50px;
-  .contact-text-top, .contact-text-mid, .contact-text-bot {
-    text-align: justify;
-  }
-  .contact-text-top, .contact-text-bot {
-    width: 510px;
-  }
-  .contact-text-top {
-    float: left;
-  }
-  .contact-text-bot {
-    float: right;
-  }
-  .contact-text-mid {
-    clear: both;
-    width: 800px;
-    padding: 10px 0 10px 0;
-  }
-  .contact-bottom-pic {
-    width: 250px;
-    float: left;
-    clear: left;
-  }
-  .contact-history, .contact-avatar {
-    width: 250px;
-    border: 10px solid $white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .contact-history {
-    float: right;
-  }
-  .contact-avatar {
-    float: left;
-    clear: left;
-  }
-  .img-txt-right, .img-txt-left {
-    width: 250px;
-    text-align: center;
-    font-style: italic;
-  }
-  .img-txt-right {
-    float: right;
-  }
-  .img-txt-left {
-    float: left;
-    clear: left;
-  }
-}
-.contact-img-box {
-  height: 320px;
-  width: 800px;
-  margin: auto;
-  padding-top: 40px;
-  .contact-left-img, .contact-right-img {
-    width: 380px;
-    border: 10px solid $white;
-  }
-  .contact-left-img {
-    float: left;
-  }
-  .contact-right-img {
-    float: right;
-  }
-}
-.signature {
-  padding-left: 20px;
-  font-size: 30px;
-  font-family: 'Lobster Two', cursive;
-}
-
-.tax-container-2cell, .tax-container-3cell {
-  margin: auto;
-}
-.tax-container-2cell {
-  height: 450px;
-  width: 532px;
-}
-.tax-container-3cell {
-  height: 500px;
-  width: 800px;
-}
-.tax-box {
-  width: 266px;
-  margin: auto;
-  float: left;
-  padding-bottom: 50px;
-}
-.tax-info {
-  font-size: 15px;
-  text-align: center;
-  max-width: 800px;
-  margin: auto;
-  padding-top: 10px;
-}
-.tax-bild {
-  width: 250px;
-  margin: auto;
-  margin-top: 50px;
-  .tax-portrait {
-    width: 250px;
-    border-radius: 125px;
-  }
-}
-.aktuellt {
-  font-size: 30px;
-  font-style: italic;
-  text-align: center;
-  width: 800px;
-  margin: auto;
-  padding: 40px 0 40px 0;
-}
-
-.footer-top {
-  height: 200px;
-  background-color: $lightgrey;
-  p {
-    color: $grey;
-    font-family: 'Poiret One', cursive;
-    font-size: 18px;
-    text-align: center;
-    padding: 25px 0 0 0;
-  }
-}
-
-.footer-image {
-  height: 600px;
-  background-size:  cover;
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-image: url('../img/footer.jpg');
-}
-
-.footer-end {
-  height: 62px;
-  background-color: $dimgrey;
-  p {
-    color: $white;
-    font-family: 'Poiret One', cursive;
-    text-align: center;
-    padding-top: 22px;
-    font-weight: bold;
-  }
-  a:link, a:visited, a:hover, a:active {
-    color: $blue;
-    text-decoration: none;
-  }
-}
+  background-image: url("../img/taxar-foot.jpg"); }

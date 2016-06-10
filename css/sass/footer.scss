@@ -1,0 +1,32 @@
+@import 'colors';
+
+.footer-top {
+  height: 215px;
+  background-color: $lightgrey }
+  .footer-top p {
+    color: $darkgrey;
+    font-family: 'Poiret One', cursive;
+    font-size: 15pt;
+    text-align: center;
+    padding: 25px 0 0 0; }
+
+.footer-image {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-image: url("../img/footer.jpg"); }
+
+.footer-end {
+  height: 62px;
+  background-color: $dimgrey }
+
+  .footer-end p {
+    color: $white;
+    font-size: 14pt;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 22px; }
+  .footer-end a:link, .footer-end a:visited, .footer-end a:hover, .footer-end a:active {
+    color: $blue;
+    text-decoration: none; }

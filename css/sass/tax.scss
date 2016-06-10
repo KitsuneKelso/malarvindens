@@ -1,0 +1,47 @@
+@import 'colors';
+
+.pic-box-one, .pic-box-two {
+  width: 800px;
+  margin: auto;
+  padding: 50px 0 50px 0; }
+
+@media only screen and (max-width: 1025px) {
+  .pic-one, .pic-two {
+	width: 400px;
+	padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .pic-box-one, .pic-box-two {
+    width: 1050px;
+    margin: auto;
+    padding: 50px 0 50px 0; }
+}
+
+.pic-box-one {
+  height: 831px; }
+
+.pic-box-two {
+  height: 900px; }
+
+.pic-left {
+  float: left; }
+
+.pic-right {
+  float: right; }
+
+.pic-text-right, .pic-text-left {
+  text-align: justify;
+  font-size: 22pt;
+  width: 380px; }
+
+.pic-text-right {
+  float: right; }
+
+.pic-text-left {
+  float: left; }
+
+  .video-container {
+    text-align: center;
+  }

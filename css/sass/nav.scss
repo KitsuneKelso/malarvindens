@@ -1,51 +1,54 @@
 @import 'colors';
 
-.nav-bar {
-  .sticky {
-    background-image: url('../img/header_min.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    outline: 20px solid $green;
-    .nav-menu {
-      padding-top: 20px;
-      .logo-big {
-        display: none;
-      }
-      .logo-small {
-        display: block;
-      }
-    }
-  }
-}
+.nav-bar .sticky {
+  background-image: url("../img/header_min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 10;
+  outline: 20px solid $green; }
+  .nav-bar .sticky .nav-menu {
+    padding-top: 20px; }
+    .nav-bar .sticky .nav-menu .logo-big {
+      display: none; }
+    .nav-bar .sticky .nav-menu .logo-small {
+      display: block; }
 
 .nav-menu {
   padding-top: 420px;
   width: 85%;
   min-width: 800px;
-  margin: auto;
-  .logo-small {
+  margin: auto; }
+  .nav-menu .logo-small {
     display: none;
     margin-top: -15px;
+    float: left; }
+  .nav-menu .logo-big {
     float: left;
-  }
-  .logo-big {
-    float: left;
-    margin-top: -65px;
-  }
-  .nav-links {
-    float: right;
-  }
-}
+    margin-top: -65px; }
+  .nav-menu .nav-links {
+    float: right; }
 
-.nav-tabs>li>a {
+.nav-tabs > li > a {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   color: $dimgrey;
-  background-color: $lightgrey;
-}
+  background-color: $lightgrey; }
 
-.nav-tabs>li.active>a {
+.nav-tabs > li.active > a {
   color: $white !important;
-  background-color: $green !important;
+  background-color: $green !important; }
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 462px;
+  outline: 20px solid $green; }
+
+@media only screen and (min-width: 1025px) {
+  .header {
+    background-attachment: fixed;
+  }
 }
