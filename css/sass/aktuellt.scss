@@ -6,6 +6,9 @@
   width: 800px;
   margin: auto;
   padding: 40px 0 40px 0;
+  &--marginless {
+    margin: 0;
+  }
 }
   .aktuellt-container {
     height: 500px;

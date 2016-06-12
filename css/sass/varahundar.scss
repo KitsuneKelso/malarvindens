@@ -1,33 +1,64 @@
 @import 'colors';
 
+.vara-hundar p {
+  color: $white;
+  font-family: 'Poiret One';
+  font-size: 16pt;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .tax-container-2cell, .tax-container-3cell {
-  margin: auto; }
+  margin: auto;
+}
 
 .tax-container-2cell {
   height: 480px;
-  width: 532px; }
+  width: 532px;
+}
 
 .tax-container-3cell {
-  height: 500px;
-  width: 800px; }
+  height: 400px;
+  width: 800px;
+}
 
 .tax-box {
   width: 266px;
   margin: auto;
   float: left;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+}
 
 .tax-info {
   font-size: 13pt;
   text-align: center;
   max-width: 800px;
   margin: auto;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .tax-bild {
   width: 250px;
   margin: auto;
-  margin-top: 50px; }
-  .tax-bild .tax-portrait {
+  margin-top: 50px;
+  .tax-portrait {
     width: 250px;
-    border-radius: 125px; }
+    border-radius: 125px;
+    box-sizing: border-box;
+    border: 10px solid $white;
+  }
+}
+
+.tax-grupp {
+  max-width: 800px;
+  margin: auto;
+  &__bild {
+    box-sizing: border-box;
+    border: 10px solid $white;
+    max-width: inherit;
+    margin-bottom: 10px;
+    &-text {
+      padding-bottom: 40px;
+    }
+  }
+}

@@ -8,6 +8,16 @@ export default class Aktuellt extends React.Component {
         <div className="box-first">
           <h1 className="page-title">Aktuellt</h1>
         </div>
+
+        <div className="box-third">
+          <p className="aktuellt">
+            Ny kull planneras till hösten 2017
+          </p>
+          <p className="aktuellt--marginless">
+            Efter Ronja (Bellomis Kallaskula)
+          </p>
+        </div>
+
         <div className="box-second">
           <p className="aktuellt">
             Kull född den 1 Maj 2016:
@@ -25,6 +35,7 @@ export default class Aktuellt extends React.Component {
         <Sticky topOffset={-40} stickyClass="divider-sticky-one">
           <div className="divider-one"></div>
         </Sticky>
+
         <div className="box-third">
           <div className="aktuellt-container">
             <p className="aktuellt-header">
@@ -47,6 +58,7 @@ export default class Aktuellt extends React.Component {
         <Sticky topOffset={-40} stickyClass="divider-sticky-two">
           <div className="divider-two"></div>
         </Sticky>
+
       </div>
     );
   }
