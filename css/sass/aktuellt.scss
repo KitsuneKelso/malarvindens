@@ -19,10 +19,10 @@
   }
   .aktuellt-box p,
   .aktuellt-text p,
-  .aktuellt-left-col,
-  .aktuellt-right-col {
+  .aktuellt-bild-container p, {
     font-family: 'Poiret One', cursive;
     color: $white;
+    font-size: 14pt;
     text-align: center;
   }
   .aktuellt-bild {
@@ -42,39 +42,17 @@
     position: relative;
     width: 800px;
     margin: auto;
-  }
-  .aktuellt-left-col {
-    width: 300px;
-    float: left;
-    margin-right: 100px;
-  }
-  .aktuellt-left-col p {
-    font-size: 24pt;
-    font-style: italic;
-  }
-  .aktuellt-left-col h2 {
-    font-size: 32pt;
-    font-weight: bold;
-    font-style: normal;
-    text-decoration: underline;
-  }
-  .aktuellt-right-col {
-    position: relative;
-    width: 800px;
-    height: 100px;
-    margin: auto;
-  }
-  .aktuellt-right-col p {
-    position: absolute;
-    right: 0;
-    font-size: 16pt;
-    text-align: center;
-    margin-top: 10px;
+    padding-bottom: 20px;
+    &__image {
+      width: 400px;
+      margin: auto;
+    }
   }
   .aktuellt-valpar-bild {
     box-sizing: border-box;
     border: 10px solid white;
     width: 400px;
+    margin-bottom: 10px;
   }
   .aktuellt-header {
     font-size: 22pt;
