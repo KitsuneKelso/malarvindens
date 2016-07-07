@@ -2,5 +2,5 @@ bundle.js
 node_modules
 .DS_Store
 *.log*
-/public/stylesheets/
-/.sass-cache/
+public/stylesheets/
+.sass-cache/

@@ -37,13 +37,16 @@
   padding: 50px 50px 50px 50px; }
 
 .box-first {
+  overflow: auto;
   padding-bottom: 10px;
   background-color: $green }
 
 .box-second {
+  overflow: auto;
   background-color: $beige }
 
 .box-third {
+  overflow: auto;
   background-color: $brown }
 
 .divider-one {
