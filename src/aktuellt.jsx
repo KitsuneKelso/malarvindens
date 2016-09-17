@@ -13,9 +13,11 @@ export default class Aktuellt extends React.Component {
           <p className="aktuellt">
             Ny kull planneras till hösten 2017
           </p>
-          <p className="aktuellt--marginless">
-            Efter Ronja (Bellomis Kallaskula)
-          </p>
+          <div className="aktuellt-bild-container">
+            <p>
+              Efter Ronja (Bellomis Kallaskula)
+            </p>
+          </div>
         </div>
 
         <div className="box-second">
