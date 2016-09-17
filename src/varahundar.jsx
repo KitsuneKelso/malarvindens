@@ -11,7 +11,7 @@ export default class VaraHundar extends React.Component {
         </div>
 
         <div className="box-second">
-          <div className="tax-container-2cell">
+          <div className="tax-container-3cell">
             <div className="tax-box">
               <div className="tax-bild">
                 <img className="tax-portrait" src="./public/img/ida.jpg" alt="Ida" />
@@ -36,6 +36,16 @@ export default class VaraHundar extends React.Component {
                 <b>Utställningsmerit:</b> HP Valpklass
                 <br />
                 <b>Jaktmerit:</b> Godkännt Anlagsprov i Viltspår
+              </p>
+            </div>
+            <div className="tax-box">
+              <div className="tax-bild">
+                <img className="tax-portrait" src="./public/img/astrid.jpg" alt="Astrid" />
+              </div>
+              <p className="tax-info">
+                <b>Astrid (SE, Mälarvindens Astrid)</b>
+                <br />
+                <b>Född:</b> 2016-05-01
               </p>
             </div>
           </div>
