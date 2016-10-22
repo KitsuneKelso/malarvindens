@@ -11,13 +11,13 @@ class ConstructionTitle extends React.Component {
     return (
       <div>
         <div className="header">
-          <NavBar/>
+          <NavBar />
         </div>
         <div className="content">
-          <Router routes={ routes } history={ hashHistory }/>
+          <Router routes={ routes } history={ hashHistory } />
         </div>
         <div className="footer">
-          <Footer/>
+          <Footer />
         </div>
       </div>
     );

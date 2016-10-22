@@ -11,12 +11,12 @@ export default class VaraHundar extends React.Component {
         </div>
 
         <div className="box-second">
-          <div className="tax-container-3cell">
-            <div className="tax-box">
-              <div className="tax-bild">
-                <img className="tax-portrait" src="./public/img/ida.jpg" alt="Ida" />
-              </div>
-              <p className="tax-info">
+          <div className="tax-box">
+            <div className="tax-bild">
+              <img className="tax-portrait" src="./public/img/ida.jpg" alt="Ida" />
+            </div>
+            <div className="tax-info">
+              <p>
                 <b>Ida (SE VCH, Hissmovallens Elvira)</b>
                 <br />
                 <b>Född:</b> 2012-11-26<br />
@@ -24,28 +24,34 @@ export default class VaraHundar extends React.Component {
                 <b>Jaktmerit:</b> Viltspårschampion
               </p>
             </div>
-            <div className="tax-box">
-              <div className="tax-bild">
-                <img className="tax-portrait" src="./public/img/ronja.jpg" alt="Ronja" />
-              </div>
-              <p className="tax-info">
+          </div>
+          <div className="tax-box">
+            <div className="tax-bild">
+              <img className="tax-portrait" src="./public/img/ronja.jpg" alt="Ronja" />
+            </div>
+            <div className="tax-info">
+              <p>
                 <b>Ronja (SE, Bellomis Kalas Kula)</b>
                 <br />
                 <b>Född:</b> 2015-02-19
                 <br />
-                <b>Utställningsmerit:</b> HP Valpklass
+                <b>Utställningsmerit:</b> Excellent, HP i Valpklass
                 <br />
                 <b>Jaktmerit:</b> Godkännt Anlagsprov i Viltspår
               </p>
             </div>
-            <div className="tax-box">
-              <div className="tax-bild">
-                <img className="tax-portrait" src="./public/img/astrid.jpg" alt="Astrid" />
-              </div>
-              <p className="tax-info">
+          </div>
+          <div className="tax-box">
+            <div className="tax-bild">
+              <img className="tax-portrait" src="./public/img/astrid.jpg" alt="Astrid" />
+            </div>
+            <div className="tax-info">
+              <p>
                 <b>Astrid (SE, Mälarvindens Astrid)</b>
                 <br />
                 <b>Född:</b> 2016-05-01
+                <br />
+                <b>Utställningsmerit:</b> BIM & HP i Valpklass
               </p>
             </div>
           </div>
@@ -87,32 +93,36 @@ export default class VaraHundar extends React.Component {
         </div>
 
         <div className="box-third">
-          <div className="tax-container-3cell">
-            <div className="tax-box">
-              <div className="tax-bild">
-                <img className="tax-portrait" src="./public/img/emma.jpg" alt="Emma" />
-              </div>
-              <p className="tax-info">
+          <div className="tax-box">
+            <div className="tax-bild">
+              <img className="tax-portrait" src="./public/img/emma.jpg" alt="Emma" />
+            </div>
+            <div className="tax-info">
+              <p>
                 Emma (SE, Hjortskogens Hilda)
                 <br />
                 1993-06-11 - 2000-09-05
               </p>
             </div>
-            <div className="tax-box">
-              <div className="tax-bild">
-                <img className="tax-portrait" src="./public/img/elvira.jpg" alt="Elvira" />
-              </div>
-              <p className="tax-info">
+          </div>
+          <div className="tax-box">
+            <div className="tax-bild">
+              <img className="tax-portrait" src="./public/img/elvira.jpg" alt="Elvira" />
+            </div>
+            <div className="tax-info">
+              <p>
                 Elvira (SE, Mälarvindens Elvira)
                 <br />
                 1998-05-24 - 2012-09-26
               </p>
             </div>
-            <div className="tax-box">
-              <div className="tax-bild">
-                <img className="tax-portrait" src="./public/img/alva.jpg" alt="Alva" />
-              </div>
-              <p className="tax-info">
+          </div>
+          <div className="tax-box">
+            <div className="tax-bild">
+              <img className="tax-portrait" src="./public/img/alva.jpg" alt="Alva" />
+            </div>
+            <div className="tax-info">
+              <p>
                 Alva (SE, Dalstagårdens Alva)
                 <br />
                 2000-08-06 - 2015-01-30

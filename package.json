@@ -1,6 +1,6 @@
 {
   "name": "malarvindens",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "React page for Malarvindens Kennel",
   "main": "src/construction.jsx",
   "directories": {
@@ -24,16 +24,17 @@
   "devDependencies": {
     "babelify": "^6.4.0",
     "browserify": "^13.0.0",
-    "watchify": "^3.7.0",
     "eslint": "2.11.1",
     "eslint-config-airbnb": "9.0.1",
-    "eslint-plugin-jsx-a11y": "1.2.0",
-    "eslint-plugin-import": "1.7.0",
     "eslint-config-nordnet": "1.1.1",
-    "eslint-plugin-react": "5.1.1"
+    "eslint-plugin-import": "1.7.0",
+    "eslint-plugin-jsx-a11y": "1.2.0",
+    "eslint-plugin-react": "5.1.1",
+    "http-server": "^0.9.0",
+    "watchify": "^3.7.0"
   },
   "scripts": {
-    "start": "npm run watch",
+    "start": "http-server ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watchify src/construction.jsx -d -o bundle.js -v",
     "sass": "sass --watch css/sass:public/stylesheets"
