@@ -2,6 +2,7 @@
   "name": "malarvindens",
   "version": "1.2.0",
   "description": "React page for Malarvindens Kennel",
+  "repository": "https://github.com/KitsuneKelso/malarvindens",
   "main": "src/construction.jsx",
   "directories": {
     "css": "css",

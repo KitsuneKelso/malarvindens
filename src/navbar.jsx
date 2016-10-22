@@ -29,7 +29,7 @@ export default class NavBar extends React.Component {
               <img className="logo-small" src="./public/img/logo.svg" height="50px" alt="Mälarvindens Kennel" />
             </div>
             <div className="nav-links">
-              <Nav bsStyle="tabs" activeHref={ this.state.location } onClick={ this.setLocation }>
+              <Nav bsStyle="tabs" activeHref={this.state.location} onClick={this.setLocation}>
                 <NavItem href="#/">Hem</NavItem>
                 <NavItem href="#/om-oss">Om Oss</NavItem>
                 <NavItem href="#/hundar">Våra Hundar</NavItem>

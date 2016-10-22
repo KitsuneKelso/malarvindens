@@ -8,9 +8,9 @@ import Tax from './tax.jsx';
 import Aktuellt from './aktuellt.jsx';
 
 export default [
-  <Route path="/" component={Start}/>,
-  <Route path="/om-oss" component={OmOss}/>,
-  <Route path="/hundar" component={VaraHundar}/>,
-  <Route path="/tax" component={Tax}/>,
-  <Route path="/aktuellt" component={Aktuellt}/>,
+  <Route path="/" component={Start} />,
+  <Route path="/om-oss" component={OmOss} />,
+  <Route path="/hundar" component={VaraHundar} />,
+  <Route path="/tax" component={Tax} />,
+  <Route path="/aktuellt" component={Aktuellt} />,
 ];

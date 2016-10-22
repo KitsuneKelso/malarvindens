@@ -14,7 +14,7 @@ class ConstructionTitle extends React.Component {
           <NavBar />
         </div>
         <div className="content">
-          <Router routes={ routes } history={ hashHistory } />
+          <Router routes={routes} history={hashHistory} />
         </div>
         <div className="footer">
           <Footer />

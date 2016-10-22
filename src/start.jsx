@@ -10,7 +10,7 @@ export default class Start extends React.Component {
           <p className="p-first">
             Vi är en kennel i liten skala i hemmiljö. Vi är belägna i Roslagens
             famn, nära havet i Åkersberga, drygt 3 mil nordöst om Stockholm.
-          <br/><br/>
+            <br /><br />
             Hos oss är taxarna våra kära familjemedlemmar som lever nära oss i en trygg
             hemmiljö. Det bidrar till en mental stabilitet och sunda och trevliga
             individer med mycket personlighet och charm.
@@ -21,7 +21,7 @@ export default class Start extends React.Component {
           <p className="p-second">
             Mälarvindens stammoder är Hjortskogens Hilda. Hon härstammar
             från Hjortskogens kennel i Östergötland, som ägdes av min makes syster.
-          <br/><br/>
+            <br /><br />
             Vår målsättning i vårt avelsarbete är att i första hand föda upp
             sunda taxar som fungerar utmärkt som familjehundar och blir de sociala
             och trevliga hundar som man vill leva tillsammans med i många år framöver.

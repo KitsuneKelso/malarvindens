@@ -18,7 +18,7 @@ export default class OmOss extends React.Component {
                 att bli ihjältrampade av mina vänner och bära hem överkörda och
                 skadade paddor visste nog både mina föräldrar och jag att detta
                 yrke skulle passa mig som handen i handsken.
-                <br/><br/>
+                <br /><br />
                 På den tiden fanns ingen utbildning till djursjukvårdare så efter avslutad
                 grundskola tog jag saken i egna händer. Jag ringde upp samtliga
                 veterinärer i Stockholmsregionen och fick napp då jag pratade
@@ -30,10 +30,10 @@ export default class OmOss extends React.Component {
                 Hundägareförening.
               </p>
             </div>
-            <img className="contact-history" src="./public/img/birgitta-16.jpg" alt="Birgitta 16 år"/>
+            <img className="contact-history" src="./public/img/birgitta-16.jpg" alt="Birgitta 16 år" />
             <p className="img-txt-right">
               Birgitta, här 16 år gammal,
-              <br/>
+              <br />
               vaccinerar strävhårig tax.
             </p>
             <div className="contact-text-mid">
@@ -46,10 +46,10 @@ export default class OmOss extends React.Component {
               </p>
             </div>
             <div className="contact-bottom-pic">
-              <img className="contact-avatar" src="./public/img/birgitta.jpg" alt="Birgitta tillsammans med nyblivna champion Ida"/>
+              <img className="contact-avatar" src="./public/img/birgitta.jpg" alt="Birgitta tillsammans med nyblivna champion Ida" />
               <p className="img-txt-left">
                 Birgitta tillsammans med Ida,
-                <br/>
+                <br />
                 nybliven viltspårschampion.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default class OmOss extends React.Component {
                 fina valpar, en stor kull för nybörjare. Allt gick jättebra och
                 vi hittade fina hem till sex av valparna, men behöll själva en
                 tik som hette Mälarvindens Elvira.
-                <br/><br/>
+                <br /><br />
                 År 2001 flyttade hela vår familj, med taxar till Los Angeles,
                 Kalifornien och vi valde att lägga Mälarvindens Kennel i
                 viloläge. Det är först nu 2016 som vi väljer att aktivera vårt
@@ -71,12 +71,12 @@ export default class OmOss extends React.Component {
                 både tid och lust att pyssla med det vi brinner för. Dessutom
                 har jag nu slutat arbeta och kan lägga min tid på att ta hand
                 om mina hundar fullt ut.
-                <br/><br/>
+                <br /><br />
                 Vi inleder vårt Kennelarbete med att planera för en valpkull
                 från vår lilla Ida, Hissmovallens Elvira.
-                <br/><br/>
+                <br /><br />
                 Information om detta finns under fliken aktuellt.
-                <br/><br/>
+                <br /><br />
                 På återseende,
               </p>
               <p className="signature">
@@ -90,8 +90,8 @@ export default class OmOss extends React.Component {
         </Sticky>
         <div className="box-third">
           <div className="contact-img-box">
-            <img className="contact-left-img" src="./public/img/birgitta-thorbjorn.jpg" alt="Birgitta och Thorbjörn Gustafsson"/>
-            <img className="contact-right-img" src="./public/img/huset.jpg" alt="Huset i Åkersberga"/>
+            <img className="contact-left-img" src="./public/img/birgitta-thorbjorn.jpg" alt="Birgitta och Thorbjörn Gustafsson" />
+            <img className="contact-right-img" src="./public/img/huset.jpg" alt="Huset i Åkersberga" />
           </div>
         </div>
         <Sticky topOffset={-40} stickyClass="divider-sticky-two">

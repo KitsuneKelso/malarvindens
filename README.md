@@ -26,4 +26,11 @@ npm run watch
 npm run sass
 ```
 
+### Serve the file
+
+You can easilly serve the file to localhost:8080, just run
+```
+npm start
+```
+
 That should be all you need, have fun!

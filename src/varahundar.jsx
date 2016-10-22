@@ -64,7 +64,7 @@ export default class VaraHundar extends React.Component {
           <h2 className="page-title">Våra Kullar</h2>
         </div>
 
-        <div className="box-second">
+        <div className="box-third">
           <div className="tax-grupp">
             <h2 className="secondary-title">
               A-kullen (2016-05-01)
@@ -87,12 +87,15 @@ export default class VaraHundar extends React.Component {
             </p>
           </div>
         </div>
+        <Sticky topOffset={-40} stickyClass="divider-sticky-two">
+          <div className="divider-two"></div>
+        </Sticky>
 
         <div className="box-first">
           <h2 className="page-title">Saknade och i kärt minne</h2>
         </div>
 
-        <div className="box-third">
+        <div className="box-second">
           <div className="tax-box">
             <div className="tax-bild">
               <img className="tax-portrait" src="./public/img/emma.jpg" alt="Emma" />
@@ -130,10 +133,6 @@ export default class VaraHundar extends React.Component {
             </div>
           </div>
         </div>
-        <Sticky topOffset={-40} stickyClass="divider-sticky-two">
-          <div className="divider-two"></div>
-        </Sticky>
-
       </div>
     );
   }
