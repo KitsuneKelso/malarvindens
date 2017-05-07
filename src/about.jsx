@@ -79,9 +79,9 @@ export default class OmOss extends React.Component {
                 <br /><br />
                 På återseende,
               </p>
-              <p className="signature">
+              <span className="signature">
                 Birgitta Gustafsson med Familj
-              </p>
+              </span>
             </div>
           </div>
         </div>

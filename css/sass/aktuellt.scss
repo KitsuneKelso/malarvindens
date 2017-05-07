@@ -50,16 +50,12 @@
     width: 800px;
     margin: auto;
     padding-bottom: 20px;
-    &__image {
-      width: 400px;
-      margin: auto;
+    img {
+      width: 100%;
+      margin: 20px auto;
+      box-sizing: border-box;
+      border: 10px solid white;
     }
-  }
-  .aktuellt-valpar-bild {
-    box-sizing: border-box;
-    border: 10px solid white;
-    width: 400px;
-    margin-bottom: 10px;
   }
   .aktuellt-header {
     font-size: 22pt;

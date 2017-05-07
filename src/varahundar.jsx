@@ -71,14 +71,29 @@ export default class VaraHundar extends React.Component {
             <h2 className="secondary-title">
               A-kullen (2016-05-01)
             </h2>
-            <p>
-              Efter Ida (SE VCH, Hissmovallens Elvira) och <br />
-              Emil (SE UvCH, FI UvCH, SE VCH, Bellomis USA)
-            </p>
             <img className="tax-grupp__bild" src="./public/img/grupp.jpg" alt="Kull A" />
-            <p className="tax-grupp__bild-text">
+            <p>
               Astrid, Agnes, Arne och Alma (fr. vä.)
             </p>
+            <div className="tax-grupp__foraldrar">
+              <h3 className="tax-grupp__foraldrar-header">
+                Efter:
+              </h3>
+              <div className="tax-grupp__foraldrar-container">
+                <div className="tax-grupp__foraldrar-box">
+                  <img className="tax-grupp__foraldrar-bild" src="./public/img/ida_a.jpg" alt="Ida" />
+                  <p>
+                    Ida (SE VCH, Hissmovallens Elvira)
+                  </p>
+                </div>
+                <div className="tax-grupp__foraldrar-box">
+                  <img className="tax-grupp__foraldrar-bild" src="./public/img/emil.jpg" alt="Emil" />
+                  <p>
+                    Emil (SE UvCH, FI UvCH, SE VCH, Bellomis USA)
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="tax-grupp">
             <h2 className="secondary-title">

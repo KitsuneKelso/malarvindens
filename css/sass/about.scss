@@ -1,61 +1,82 @@
 @import 'colors';
 
 .contact-main {
-  font-size: 13pt;
   width: 800px;
   overflow: auto;
   margin: auto;
-  padding-top: 50px; }
+  padding-top: 50px;
+  p {
+    font-size: 13pt;
+  }
+}
   .contact-main .contact-text-top, .contact-main .contact-text-mid, .contact-main .contact-text-bot {
-    text-align: justify; }
+    text-align: justify;
+  }
   .contact-main .contact-text-top, .contact-main .contact-text-bot {
-    width: 510px; }
+    width: 510px;
+  }
   .contact-main .contact-text-top {
-    float: left; }
+    float: left;
+  }
   .contact-main .contact-text-bot {
-    float: right; }
+    float: right;
+    margin-bottom: 40px;
+  }
   .contact-main .contact-text-mid {
     clear: both;
     width: 800px;
-    padding: 10px 0 10px 0; }
+    padding: 10px 0 10px 0;
+  }
   .contact-main .contact-bottom-pic {
     width: 250px;
     float: left;
-    clear: left; }
+    clear: left;
+  }
   .contact-main .contact-history, .contact-main .contact-avatar {
     width: 250px;
     border: 10px solid $white;
     margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+  }
   .contact-main .contact-history {
-    float: right; }
+    float: right;
+  }
   .contact-main .contact-avatar {
     float: left;
-    clear: left; }
+    clear: left;
+  }
   .contact-main .img-txt-right, .contact-main .img-txt-left {
     width: 250px;
     text-align: center;
-    font-style: italic; }
+    font-style: italic;
+  }
   .contact-main .img-txt-right {
-    float: right; }
+    float: right;
+  }
   .contact-main .img-txt-left {
     float: left;
-    clear: left; }
+    clear: left;
+  }
 
 .contact-img-box {
   height: 320px;
   width: 800px;
   margin: auto;
-  padding-top: 40px; }
+  padding-top: 40px;
+}
   .contact-img-box .contact-left-img, .contact-img-box .contact-right-img {
     width: 380px;
-    border: 10px solid $white; }
+    border: 10px solid $white;
+  }
   .contact-img-box .contact-left-img {
-    float: left; }
+    float: left;
+  }
   .contact-img-box .contact-right-img {
-    float: right; }
+    float: right;
+  }
 
 .signature {
   padding-left: 20px;
   font-size: 22pt;
-  font-family: 'Lobster Two', cursive; }
+  font-family: 'Lobster Two', cursive;
+}
