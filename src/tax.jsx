@@ -18,7 +18,9 @@ export default class Tax extends React.Component {
         <p className="tax-intro">
           Fortsätt nedåt så får ni även ta del av vardagslivet med våra taxar!
         </p>
+
         <div className="text-break pic-3"></div>
+
         <div className="box-second">
           <div className="pic-box-one">
             <div className="pic-left">
@@ -40,6 +42,9 @@ export default class Tax extends React.Component {
         <Sticky topOffset={-40} stickyClass="divider-sticky-one">
           <div className="divider-one"></div>
         </Sticky>
+
+        <div className="text-break pic-5"></div>
+
         <div className="box-third">
           <div className="pic-box-two">
             <div className="pic-right">
@@ -55,6 +60,20 @@ export default class Tax extends React.Component {
               barken på träd, en nyttig aktivitet för både nos och hjärna.
             </p>
           </div>
+
+          <p className="aktuellt">
+            Fjällvandring hösten 2016
+          </p>
+          <div className="aktuellt-bild-container">
+            <div className="aktuellt-bild-container__image">
+              <img src="./public/img/fjallvandring.jpg" alt="Fjällvandring" />
+            </div>
+            <p>
+              Hösten 2016 spenderade vi en underbar vecka i Vemdalen där vi vandrade till
+              vattenfall och upplevde naturen på riktigt nära håll. Självklart var ju alla taxrna med!
+            </p>
+          </div>
+
         </div>
         <Sticky topOffset={-40} stickyClass="divider-sticky-two">
           <div className="divider-two"></div>

@@ -14,6 +14,9 @@ export default class Aktuellt extends React.Component {
             Ny kull planneras till våren 2018
           </p>
           <div className="aktuellt-bild-container">
+            <div className="aktuellt-bild-container__image">
+              <img src="./public/img/ronja-skog.jpg" alt="Ronja i skogen" />
+            </div>
             <p>
               Efter Ronja (Bellomis Kallaskula)
             </p>
@@ -29,7 +32,7 @@ export default class Aktuellt extends React.Component {
           </p>
           <div className="aktuellt-bild-container">
             <div className="aktuellt-bild-container__image">
-              <img className="aktuellt-viltspar" src="./public/img/viltspar.jpg" alt="Viltspår" />
+              <img src="./public/img/viltspar.jpg" alt="Viltspår" />
             </div>
             <p>
               Astrid fick godkännt anlagsprov i viltspår 2017-04-17
