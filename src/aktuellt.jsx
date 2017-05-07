@@ -11,7 +11,7 @@ export default class Aktuellt extends React.Component {
 
         <div className="box-third">
           <p className="aktuellt">
-            Ny kull planneras till hösten 2017
+            Ny kull planneras till våren 2018
           </p>
           <div className="aktuellt-bild-container">
             <p>

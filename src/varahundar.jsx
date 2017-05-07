@@ -52,6 +52,8 @@ export default class VaraHundar extends React.Component {
                 <b>Född:</b> 2016-05-01
                 <br />
                 <b>Utställningsmerit:</b> BIM & HP i Valpklass
+                <br />
+                <b>Jaktmerit:</b> Godkännt Anlagsprov i Viltspår
               </p>
             </div>
           </div>
@@ -80,7 +82,7 @@ export default class VaraHundar extends React.Component {
           </div>
           <div className="tax-grupp">
             <h2 className="secondary-title">
-              Ny kull planneras till hösten 2017
+              Ny kull planneras till våren 2018
             </h2>
             <p className="tax-grupp__bild-text">
               Efter Ronja (Bellomis Kallaskula)
