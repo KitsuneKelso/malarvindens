@@ -70,11 +70,6 @@ export default () => (
             har jag nu slutat arbeta och kan lägga min tid på att ta hand
             om mina hundar fullt ut.
             <br /><br />
-            Vi inleder vårt Kennelarbete med att planera för en valpkull
-            från vår lilla Ida, Hissmovallens Elvira.
-            <br /><br />
-            Information om detta finns under fliken aktuellt.
-            <br /><br />
             På återseende,
           </p>
           <span className="signature">
