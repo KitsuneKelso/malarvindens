@@ -13,7 +13,7 @@ export default class NavBar extends React.Component {
 
   setLocation(e) {
     if (e.target && e.target.href) {
-      const location = '#' + e.target.href.split('#')[1];
+      const location = `#${e.target.href.split('#')[1]}`;
       this.setState({ location });
       window.scrollTo(0, 400);
     }
