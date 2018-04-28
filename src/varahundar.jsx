@@ -99,14 +99,6 @@ export default () => (
           </div>
         </div>
       </div>
-      <div className="tax-grupp">
-        <h2 className="secondary-title">
-          Ny kull planneras till våren 2018
-        </h2>
-        <p className="tax-grupp__bild-text">
-          Efter Ronja (Bellomis Kallaskula)
-        </p>
-      </div>
     </div>
     <Sticky topOffset={-40} stickyClass="divider-sticky-two">
       <div className="divider-two"></div>
