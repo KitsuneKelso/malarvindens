@@ -23,14 +23,15 @@
     "react-sticky": "^3.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^9.0.0",
     "babelify": "^6.4.0",
     "browserify": "^13.0.0",
-    "eslint": "2.11.1",
-    "eslint-config-airbnb": "9.0.1",
-    "eslint-config-nordnet": "1.1.1",
-    "eslint-plugin-import": "1.7.0",
-    "eslint-plugin-jsx-a11y": "1.2.0",
-    "eslint-plugin-react": "5.1.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
     "http-server": "^0.9.0",
     "watchify": "^3.7.0"
   },
@@ -38,7 +39,8 @@
     "start": "http-server ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watchify src/construction.jsx -d -o bundle.js -v",
-    "sass": "sass --watch css/sass:public/stylesheets"
+    "sass": "sass --watch css/sass:public/stylesheets",
+    "lint": "eslint src --ext .js,.jsx"
   },
   "author": "Fredrik Gustafsson (https://github.com/KitsuneKelso)",
   "license": "MIT"

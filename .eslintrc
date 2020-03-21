@@ -1,10 +1,24 @@
 {
-  "extends": "eslint-config-nordnet",
-  "ecmaFeatures": {
-    "experimentalObjectRestSpread": true
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "jsx": true
+    }
   },
-  "globals": {
-      "expect": true,
-      "assert": true
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
   },
+  "rules": {
+    "import/no-extraneous-dependencies": 0,
+    "no-nested-ternary": 0,
+    "react/jsx-filename-extension": 0,
+    "react/destructuring-assignment": 1,
+    "prefer-destructuring": 1
+  }
 }
