@@ -1,9 +1,8 @@
-import React from 'react';
-import Sticky from 'react-sticky';
+import React from "react";
+import Sticky from "react-sticky";
 
 export default () => (
   <div className="vara-hundar">
-
     <div className="box-first">
       <h1 className="page-title">Våra Hundar</h1>
     </div>
@@ -15,49 +14,57 @@ export default () => (
         </div>
         <div className="tax-info">
           <p>
-            <b>Ida (SE VCH, Hissmovallens Elvira)</b>
+            <b>Ida (SE VCh, Hissmovallens Elvira)</b>
             <br />
-            <b>Född:</b> 2012-11-26<br />
-            <b>Utställningsmerit:</b> Excellent<br />
-            <b>Jaktmerit:</b> Viltspårschampion (2014-11-15)
+            <b>Född:</b> 2012-11-26
+            <br />
+            <b>Utställningsmerit:</b> Excellent
+            <br />
+            <b>Jaktmerit:</b> Viltspårprovschampionat
           </p>
         </div>
       </div>
       <div className="tax-box">
         <div className="tax-bild">
-          <img className="tax-portrait" src="./public/img/ronja.jpg" alt="Ronja" />
+          <img
+            className="tax-portrait"
+            src="./public/img/ronja.jpg"
+            alt="Ronja"
+          />
         </div>
         <div className="tax-info">
           <p>
-            <b>Ronja (SE, Bellomis Kalas Kula)</b>
+            <b>Ronja (SE UCh, SE VCh, Bellomis Kalas Kula)</b>
             <br />
             <b>Född:</b> 2015-02-19
             <br />
-            <b>Utställningsmerit:</b> Excellent, HP i Valpklass
+            <b>Utställningsmerit:</b> Utställningschampionat
             <br />
-            <b>Jaktmerit:</b>
-            <br />
-            Godkännt Anlagsprov i Viltspår (2016-04-17)
+            <b>Jaktmerit:</b> Viltspårprovschampionat
           </p>
         </div>
       </div>
       <div className="tax-box">
         <div className="tax-bild">
-          <img className="tax-portrait" src="./public/img/astrid.jpg" alt="Astrid" />
+          <img
+            className="tax-portrait"
+            src="./public/img/astrid.jpg"
+            alt="Astrid"
+          />
         </div>
         <div className="tax-info">
           <p>
-            <b>Astrid (SE, Mälarvindens Astrid)</b>
+            <b>Astrid (SE VCh, Mälarvindens Astrid)</b>
             <br />
             <b>Född:</b> 2016-05-01
             <br />
-            <b>Utställningsmerit:</b> BIM & HP i Valpklass
+            <b>Utställningsmerit:</b>
             <br />
-            <b>Jaktmeriter:</b>
+            &middot; BIM & HP i Valpklass
             <br />
-            Godkännt Anlagsprov i Viltspår (2017-04-17)
+            &middot; Excellent & Certifikat
             <br />
-            1:a i öppen klass (2017-06-05)
+            <b>Jaktmeriter:</b> Viltspårprovschampionat
           </p>
         </div>
       </div>
@@ -72,29 +79,31 @@ export default () => (
 
     <div className="box-third">
       <div className="tax-grupp">
-        <h2 className="secondary-title">
-          A-kullen (2016-05-01)
-        </h2>
-        <img className="tax-grupp__bild" src="./public/img/grupp.jpg" alt="Kull A" />
-        <p>
-          Astrid, Agnes, Arne och Alma (fr. vä.)
-        </p>
+        <h2 className="secondary-title">A-kullen (2016-05-01)</h2>
+        <img
+          className="tax-grupp__bild"
+          src="./public/img/grupp.jpg"
+          alt="Kull A"
+        />
+        <p>Astrid, Agnes, Arne och Alma (fr. vä.)</p>
         <div className="tax-grupp__foraldrar">
-          <h3 className="tax-grupp__foraldrar-header">
-            Efter:
-          </h3>
+          <h3 className="tax-grupp__foraldrar-header">Efter:</h3>
           <div className="tax-grupp__foraldrar-container">
             <div className="tax-grupp__foraldrar-box">
-              <img className="tax-grupp__foraldrar-bild" src="./public/img/ida_a.jpg" alt="Ida" />
-              <p>
-                Ida (SE VCH, Hissmovallens Elvira)
-              </p>
+              <img
+                className="tax-grupp__foraldrar-bild"
+                src="./public/img/ida_a.jpg"
+                alt="Ida"
+              />
+              <p>Ida (SE VCH, Hissmovallens Elvira)</p>
             </div>
             <div className="tax-grupp__foraldrar-box">
-              <img className="tax-grupp__foraldrar-bild" src="./public/img/emil.jpg" alt="Emil" />
-              <p>
-                Emil (SE UvCH, FI UvCH, SE VCH, Bellomis USA)
-              </p>
+              <img
+                className="tax-grupp__foraldrar-bild"
+                src="./public/img/emil.jpg"
+                alt="Emil"
+              />
+              <p>Emil (SE UvCH, FI UvCH, SE VCH, Bellomis USA)</p>
             </div>
           </div>
         </div>
@@ -111,7 +120,11 @@ export default () => (
     <div className="box-second">
       <div className="tax-box">
         <div className="tax-bild">
-          <img className="tax-portrait" src="./public/img/emma.jpg" alt="Emma" />
+          <img
+            className="tax-portrait"
+            src="./public/img/emma.jpg"
+            alt="Emma"
+          />
         </div>
         <div className="tax-info">
           <p>
@@ -123,7 +136,11 @@ export default () => (
       </div>
       <div className="tax-box">
         <div className="tax-bild">
-          <img className="tax-portrait" src="./public/img/elvira.jpg" alt="Elvira" />
+          <img
+            className="tax-portrait"
+            src="./public/img/elvira.jpg"
+            alt="Elvira"
+          />
         </div>
         <div className="tax-info">
           <p>
@@ -135,7 +152,11 @@ export default () => (
       </div>
       <div className="tax-box">
         <div className="tax-bild">
-          <img className="tax-portrait" src="./public/img/alva.jpg" alt="Alva" />
+          <img
+            className="tax-portrait"
+            src="./public/img/alva.jpg"
+            alt="Alva"
+          />
         </div>
         <div className="tax-info">
           <p>
