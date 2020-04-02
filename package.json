@@ -33,6 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.0",
     "http-server": "^0.12.1",
+    "sass": "^1.26.3",
     "watchify": "^3.7.0"
   },
   "resolutions": {
@@ -42,6 +43,7 @@
   },
   "scripts": {
     "start": "http-server ./",
+    "build": "browserify src/construction.jsx -d -o bundle.js && sass css/sass:public/stylesheets",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "watchify src/construction.jsx -d -o bundle.js -v",
     "sass": "sass --watch css/sass:public/stylesheets",
