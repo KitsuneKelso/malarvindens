@@ -32,8 +32,13 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.0",
-    "http-server": "^0.9.0",
+    "http-server": "^0.12.1",
     "watchify": "^3.7.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.2",
+    "minimatch": "^3.0.2",
+    "ecstatic": "^2.2.2"
   },
   "scripts": {
     "start": "http-server ./",
