@@ -10,9 +10,8 @@ export default () => (
     <div className="box-second">
       <p className="aktuellt">Kull pannerad 2021</p>
       <div className="aktuellt-bild-container">
-        <div className="aktuellt-bild-container__image--horizontal">
-          <img src="./public/img/kull_b_ronja.jpg" alt="Ronja" />
-          <img src="./public/img/kull_b_loke.jpg" alt="Loke" />
+        <div className="aktuellt-bild-container__image">
+          <img src="./public/img/kull_b.jpg" alt="Ronja och Loke" />
         </div>
         <p>
           Kull planeras under våren mellan SE18998/2015, SE Uch, SE VCh Bellomis
