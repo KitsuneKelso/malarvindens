@@ -1,4 +1,4 @@
-@import 'colors';
+@import "colors";
 
 .aktuellt {
   font-size: 22pt;
@@ -8,59 +8,73 @@
   padding: 40px 0 40px 0;
   &--marginless {
     margin: 0;
-    font-family: 'Poiret One', cursive;
+    font-family: "Poiret One", cursive;
     color: $white;
     font-size: 16pt;
     text-align: center;
   }
 }
-  .aktuellt-container {
-    height: 500px;
-    width: 800px;
-    margin: auto;
-  }
-  .aktuellt-box {
-    float: left;
-    font-size: 14pt;
-    margin: 40px 20px 20px 20px;
-  }
-  .aktuellt-box p,
-  .aktuellt-text p,
-  .aktuellt-bild-container p, {
-    font-family: 'Poiret One', cursive;
-    color: $white;
-    font-size: 14pt;
-    text-align: center;
-  }
-  .aktuellt-bild {
+.aktuellt-container {
+  height: 500px;
+  width: 800px;
+  margin: auto;
+}
+.aktuellt-box {
+  float: left;
+  font-size: 14pt;
+  margin: 40px 20px 20px 20px;
+}
+.aktuellt-box p,
+.aktuellt-text p,
+.aktuellt-bild-container p {
+  font-family: "Poiret One", cursive;
+  color: $white;
+  font-size: 14pt;
+  text-align: center;
+}
+.aktuellt-bild {
+  box-sizing: border-box;
+  border: 10px solid white;
+  height: 280px;
+  margin-bottom: 10px;
+}
+.aktuellt-text {
+  font-size: 20pt;
+  width: 800px;
+  margin: auto;
+  float: left;
+  clear: left;
+}
+.aktuellt-bild-container {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+  img {
+    width: 100%;
+    margin: 20px auto;
     box-sizing: border-box;
     border: 10px solid white;
-    height: 280px;
-    margin-bottom: 10px;
   }
-  .aktuellt-text {
-    font-size: 20pt;
-    width: 800px;
-    margin: auto;
-    float: left;
-    clear: left;
+}
+.aktuellt-bild-container__image--horizontal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  :first-child {
+    margin-right: 20px;
   }
-  .aktuellt-bild-container {
-    position: relative;
-    width: 800px;
-    margin: auto;
-    padding-bottom: 20px;
-    img {
-      width: 100%;
-      margin: 20px auto;
-      box-sizing: border-box;
-      border: 10px solid white;
-    }
+  img {
+    width: calc(50% - 10px);
+    margin: 20px 0px;
+    box-sizing: border-box;
+    border: 10px solid white;
   }
-  .aktuellt-header {
-    font-size: 22pt;
-    text-align: center;
-    width: 800px;
-    margin: auto;
-    padding-top: 40px;
-  }
+}
+.aktuellt-header {
+  font-size: 22pt;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  padding-top: 40px;
+}
