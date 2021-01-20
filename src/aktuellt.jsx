@@ -8,7 +8,7 @@ export default () => (
     </div>
 
     <div className="box-second">
-      <p className="aktuellt">Kull pannerad 2021</p>
+      <p className="aktuellt">Kull plannerad 2021</p>
       <div className="aktuellt-bild-container">
         <div className="aktuellt-bild-container__image">
           <img src="./public/img/kull_b.jpg" alt="Ronja och Loke" />
