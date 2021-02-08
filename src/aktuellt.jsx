@@ -8,22 +8,6 @@ export default () => (
     </div>
 
     <div className="box-second">
-      <p className="aktuellt">Kull plannerad 2021</p>
-      <div className="aktuellt-bild-container">
-        <div className="aktuellt-bild-container__image">
-          <img src="./public/img/kull_b.jpg" alt="Ronja och Loke" />
-        </div>
-        <p>
-          Kull planeras under våren mellan SE18998/2015, SE Uch, SE VCh Bellomis
-          Kalas Kula och SE38078/2015, SE Uch, SE VCh Heavenly Hunters Loke.
-        </p>
-      </div>
-    </div>
-    <Sticky topOffset={-40} stickyClass="divider-sticky-one">
-      <div className="divider-one"></div>
-    </Sticky>
-
-    <div className="box-third">
       <p className="aktuellt">Ronja Viltspårprovschampionat 2019</p>
       <div className="aktuellt-bild-container">
         <div className="aktuellt-bild-container__image">
@@ -38,11 +22,11 @@ export default () => (
         </p>
       </div>
     </div>
-    <Sticky topOffset={-40} stickyClass="divider-sticky-two">
-      <div className="divider-two"></div>
+    <Sticky topOffset={-40} stickyClass="divider-sticky-one">
+      <div className="divider-one"></div>
     </Sticky>
 
-    <div className="box-second">
+    <div className="box-third">
       <p className="aktuellt">Astrid Viltspårprovschampionat 2019</p>
       <div className="aktuellt-bild-container">
         <div className="aktuellt-bild-container__image">
@@ -54,8 +38,11 @@ export default () => (
         <p>Astrid vinner sitt viltspårprovschampionat på Värmdö, 2019-05-05</p>
       </div>
     </div>
+    <Sticky topOffset={-40} stickyClass="divider-sticky-two">
+      <div className="divider-two"></div>
+    </Sticky>
 
-    <div className="box-third">
+    <div className="box-second">
       <p className="aktuellt">Ronja Utställningschampionat 2019</p>
       <div className="aktuellt-bild-container">
         <div className="aktuellt-bild-container__image">
@@ -68,7 +55,7 @@ export default () => (
       </div>
     </div>
 
-    <div className="box-second">
+    <div className="box-third">
       <p className="aktuellt">Astrid Viltspårprov 2017</p>
       <div className="aktuellt-bild-container">
         <div className="aktuellt-bild-container__image">
